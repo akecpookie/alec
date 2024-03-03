@@ -1,1 +1,22 @@
+p {
+font-size: 20px;
+}
+body {
+ background-color:black;
+}
+p {
+  color:white;  
+}
+h1 {
+    color: white;
+}
+ img{
+    color: white; text-align: center;
+}
+ figcaption{ color: white;
 
+}
+
+button{
+ border-radius:50%;
+}
