@@ -1,5 +1,4 @@
-<html>
-  <head><style>body{
+body{
   background-color:black;
 }
 
@@ -68,7 +67,28 @@
   margin:auto;
   animation: circle4 12s linear infinite;
 }
-    
+    .main5{
+  width:440px;
+  height:440px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.circle5{
+  width:30px;
+  height:30px;
+  background:cyan;
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: circle5 14s linear infinite;
+}
+  
 .main{
   width:160px;
   height:160px;
@@ -146,16 +166,16 @@
   }
 }
 
-
-</style></head>
-  <body>
-    <div class="main">
-  <div class="circle"></div>
-</div>
- <div class="main2">
-  <div class="circle2"></div>
-  </div>
-  <div class="main3">
-  <div class="circle3"></div>
-  </div>
-  </body></html>
+@keyframes circle5{
+  0%{
+    transform:rotate(90deg)
+              translate(-240px)
+              rotate(90deg);
+  
+  }
+  100%{
+    transform:rotate(450deg)
+              translate(-240px)
+              rotate(-90deg);
+  }
+}
