@@ -88,6 +88,27 @@ body{
   margin:auto;
   animation: circle5 43.33s linear infinite;
 }
+    .main6{
+  width:560px;
+  height:560px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.circle6{
+  width:30px;
+  height:30px;
+  background:cyan;
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: circle6 107.56s linear infinite;
+}
   
 .main{
   width:160px;
@@ -176,6 +197,19 @@ body{
   100%{
     transform:rotate(450deg)
               translate(-240px)
+              rotate(-90deg);
+  }
+}
+@keyframes circle6{
+  0%{
+    transform:rotate(90deg)
+              translate(-280px)
+              rotate(90deg);
+  
+  }
+  100%{
+    transform:rotate(450deg)
+              translate(-280px)
               rotate(-90deg);
   }
 }
