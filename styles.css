@@ -68,8 +68,8 @@ body{
   animation: circle4 12s linear infinite;
 }
     .main5{
-  width:440px;
-  height:440px;
+  width:480px;
+  height:480px;
   border:1px solid #CCC;
   position:absolute;
   top:0; bottom:0; left:0;right:0;
