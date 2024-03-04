@@ -1,11 +1,57 @@
 <html>
-  <head><style>body{
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <style>body{
   background:black;
 }
 
+.main2{
+  width:240px;
+  height:240px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.circle2{
+  width:30px;
+  height:30px;
+  background:cyan;
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: circle2 8s linear infinite;
+}
+
+.main3{
+  width:320px;
+  height:320px;
+  border:1px solid #CCC;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  margin:auto;
+  border-radius:50%; 
+}
+
+.circle3{
+  width:30px;
+  height:30px;
+  background:cyan;
+  border-radius:50%;
+  position:absolute;
+  top:0; bottom:0; left:0;right:0;
+  overflow:hidden;
+  margin:auto;
+  animation: circle3 10s linear infinite;
+}
+    
 .main{
-  width:330px;
-  height:330px;
+  width:160px;
+  height:160px;
   border:1px solid #CCC;
   position:absolute;
   top:0; bottom:0; left:0;right:0;
@@ -27,25 +73,55 @@
 
 @keyframes circle{
   0%{
-    transform:rotate(0deg)
-              translate(-165px)
-              rotate(0deg);
+    transform:rotate(90deg)
+              translate(-80px)
+              rotate(90deg);
   
   }
   100%{
-    transform:rotate(360deg)
-              translate(-165px)
-              rotate(-360deg);
+    transform:rotate(450deg)
+              translate(-80px)
+              rotate(-90deg);
   }
 }
+@keyframes circle2{
+  0%{
+    transform:rotate(90deg)
+              translate(-120px)
+              rotate(90deg);
+  
+  }
+  100%{
+    transform:rotate(450deg)
+              translate(-120px)
+              rotate(-90deg);
+  }
+}
+
+@keyframes circle3{
+  0%{
+    transform:rotate(90deg)
+              translate(-160px)
+              rotate(90deg);
+  
+  }
+  100%{
+    transform:rotate(450deg)
+              translate(-160px)
+              rotate(-90deg);
+  }
+}
+
 
 </style></head>
   <body>
     <div class="main">
   <div class="circle"></div>
 </div>
-    div class="main2">
+ <div class="main2">
   <div class="circle2"></div>
-</div>
-  </body>
-</html>
+  </div>
+  <div class="main3">
+  <div class="circle3"></div>
+  </div>
+  </body></html>
