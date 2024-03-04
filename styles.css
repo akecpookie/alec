@@ -21,7 +21,7 @@ body{
   top:0; bottom:0; left:0;right:0;
   overflow:hidden;
   margin:auto;
-  animation: circle2 8s linear infinite;
+  animation: circle2 2.25s linear infinite;
 }
 
 .main3{
@@ -43,7 +43,7 @@ body{
   top:0; bottom:0; left:0;right:0;
   overflow:hidden;
   margin:auto;
-  animation: circle3 10s linear infinite;
+  animation: circle3 3.65s linear infinite;
 }
 
 .main4{
@@ -65,7 +65,7 @@ body{
   top:0; bottom:0; left:0;right:0;
   overflow:hidden;
   margin:auto;
-  animation: circle4 12s linear infinite;
+  animation: circle4 6.87s linear infinite;
 }
     .main5{
   width:480px;
@@ -86,7 +86,7 @@ body{
   top:0; bottom:0; left:0;right:0;
   overflow:hidden;
   margin:auto;
-  animation: circle5 14s linear infinite;
+  animation: circle5 43.33s linear infinite;
 }
   
 .main{
@@ -108,7 +108,7 @@ body{
   top:0; bottom:0; left:0;right:0;
   overflow:hidden;
   margin:auto;
-  animation: circle 6s linear infinite;
+  animation: circle 0.88s linear infinite;
 }
 
 @keyframes circle{
