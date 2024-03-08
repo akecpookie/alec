@@ -1,6 +1,6 @@
 body{
     background-color:black;
-}
+} a{text-decoration:none;}
 
 .sun{
   width:45px;
@@ -26,7 +26,7 @@ body{
   .circle2{
     width:30px;
     height:30px;
-    background:cyan;
+    background:kahaki;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -48,7 +48,7 @@ body{
   .circle3{
     width:30px;
     height:30px;
-    background:cyan;
+    background:blue;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -70,7 +70,7 @@ body{
   .circle4{
     width:30px;
     height:30px;
-    background:cyan;
+    background:darksalmon;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -91,7 +91,7 @@ body{
   .circle5{
     width:30px;
     height:30px;
-    background:cyan;
+    background:palegoldenrod;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -112,7 +112,7 @@ body{
   .circle6{
     width:30px;
     height:30px;
-    background:cyan;
+    background:darkkhaki;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -134,7 +134,7 @@ body{
   .circle7{
     width:30px;
     height:30px;
-    background:cyan;
+    background:lightskyblue;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -156,7 +156,7 @@ body{
   .circle8{
     width:30px;
     height:30px;
-    background:cyan;
+    background:dodgerblue;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
@@ -178,7 +178,7 @@ body{
   .circle{
     width:30px;
     height:30px;
-    background:cyan;
+    background:darkgray;
     border-radius:50%;
     position:absolute;
     top:0; bottom:0; left:0;right:0;
